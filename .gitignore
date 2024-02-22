@@ -1,0 +1,41 @@
+# Ignore vendor directory
+/vendor/
+
+# Ignore node_modules directory
+/node_modules/
+
+# Ignore any log files
+/storage/logs/*.log
+
+# Ignore environment configuration files
+/.env
+
+# Ignore composer lock file
+/composer.lock
+
+# Ignore IDE settings
+/.idea/
+/.vscode/
+
+# Ignore compiled files
+/public/css/*.css
+/public/js/*.js
+
+# Ignore storage directory
+/storage/app/*
+!/storage/app/.gitignore
+/storage/framework/*
+!/storage/framework/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# Ignore mix-manifest.json
+/public/mix-manifest.json
+
+# Ignore session, cache, and views
+/storage/framework/sessions/
+/storage/framework/cache/
+/storage/framework/views/
+
+# Ignore compiled Blade templates
+/vendor/
